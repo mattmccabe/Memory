@@ -1,0 +1,25 @@
+<div style="width:100%;height:100%;">
+	<flip-card ng-repeat="card in deck" style="width:{{card.width}}px;height:{{card.height}}px;float:left;margin:5px;" ng-click="flipCard(card)" card="card"/>
+	<!--<div ng-if="card.state == 'DOWN'" style="background-color:cyan;width:100%;height:100%" ng-click="flipCard(card)"></div>
+		<img ng-if="card.state == 'UP' || card.state == 'MATCHED'" url="{{card.url}}" class="img-responsive"/> -->
+</div>
+
+<!-- PREDIRECTIVE LOOK
+
+	<div style="width:100%;height:100%;">
+	<div ng-repeat="card in deck" style="width:{{card.width}}px;height:{{card.height}}px;background:#333;float:left;margin:5px;" ng-click="flipCard(card)">
+		<div ng-class="{'flip-container':true,'flip-container-over':card.state == 'UP'}" style="height: {{card.height}};width:{{card.width}}">
+			<div class="flipper">
+				<div class="front" style="height: {{card.height}};width:{{card.width}}">
+	
+				</div>
+				<div class="back"  style="height: {{card.height}};width:{{card.width}};">
+	
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+-->
