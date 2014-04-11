@@ -18,7 +18,7 @@ angular.module('memoryApp')
       			}
       			else
       			{
-					element.children(".flipper").removeClass('flip-container-over');	
+					     element.children(".flipper").removeClass('flip-container-over');	
       			}
       		})
       }

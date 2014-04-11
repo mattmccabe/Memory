@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('memoryAppApp')
+angular.module('memoryApp')
   .controller('BoardeditCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

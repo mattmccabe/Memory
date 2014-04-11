@@ -13,11 +13,9 @@
 
         <!-- build:css(.tmp) styles/main.css -->
         <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    
 
     <!-- Optional theme -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
-
     <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
@@ -34,11 +32,8 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="heading">
-        <h2>Memory</h2>
-    </div>
-    <div class="partialView" ng-view=""></div>
-    <div ngInclude="'/views/Menu.html'"></div>
+    <div class="mainViewContainer" ng-view=""></div>
+    <div id="menuContainer" ng-include="'/views/Menu.html'"></div>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
